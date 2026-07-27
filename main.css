@@ -1,0 +1,27 @@
+@font-face {
+    src: url('fonts/DMSerifDisplay-Regular.ttf');
+    font-family: DMSerif;
+}
+#menu a {
+    font-family: DMSerif, serif;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+#menu a:hover {
+    color: #3C9EE6;
+    font-weight: bold;
+}
+#header {
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+#footer {
+    background-color: #DADBDD;
+    font-size: 0.6em;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}

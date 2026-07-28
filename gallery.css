@@ -1,18 +1,16 @@
 @font-face {
     src: url('fonts/LibreCaslonText-Regular.ttf');
-    font-family:LibreCaslon;
+    font-family: LibreCaslon;
 }
 h1 {
     font-family: LibreCaslon, serif;
-    text-decoration: none;
     color: black;
 }
 h2 {
-   font-family: LibreCaslon, serif;
-    text-decoration: none;
-    color: black; 
+    font-family: LibreCaslon, serif;
+    color: black;
+    text-align: left;
 }
-
 #layout {
     display: flex;
     flex-wrap: wrap;

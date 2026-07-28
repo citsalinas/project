@@ -2,6 +2,17 @@
     src: url('fonts/DMSerifDisplay-Regular.ttf');
     font-family: DMSerif;
 }
+body {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    }
+#menu {
+    border-bottom: 2px solid black;
+    display: flex; 
+}
 #menu a {
     font-family: DMSerif, serif;
     text-decoration: none;
@@ -11,11 +22,6 @@
 #menu a:hover {
     color: #3C9EE6;
     font-weight: bold;
-}
-#header {
-    border-bottom: 2px solid black;
-    display: flex;
-    
 }
 #footer {
     background-color: #DADBDD;
